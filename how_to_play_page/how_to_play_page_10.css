@@ -1,0 +1,49 @@
+
+main.inner_pages_custom {
+    padding: 60PX 0;
+}
+
+.how_to_play_page .image {
+    background-size: cover;
+    min-height: 400px;
+}
+
+.how_to_play_page h2, span {
+    color: hsl(var(--color-primary));
+}
+
+.how_to_play_page .card-icon span {
+    border: 3px solid transparent;
+    border-radius: 50%;
+    padding: 20px;
+    color: hsl(var(--color-white));
+    background: hsl(var(--color-secondary));
+    transition: 0.05s;
+    box-shadow: 0px 9px 35px -6px hsl(var(--color-secondary));
+}
+
+.how_to_play_page .card-icon span:hover {
+    border: 3px solid hsl(var(--color-primary));
+    border-radius: 50%;
+    padding: 20px;
+    color: hsl(var(--color-primary));
+    background: transparent;
+    transform: scale(1.05);
+    box-shadow: 0px 9px 35px -6px hsl(var(--color-primary));
+}
+
+
+
+.how-play-title h2::before {
+    margin: 0 15px 10px 0;
+}
+.how-play-title h2::after {
+    margin: 0 0 10px 15px;
+}
+.how-play-title h2::before, .how-play-title h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background:hsl(var(--color-secondary));
+    display: inline-block;
+}

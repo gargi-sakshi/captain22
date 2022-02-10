@@ -1,0 +1,208 @@
+.hero-person-wrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	
+}
+
+.hero-person-wrapper img {
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  max-width: 450px;
+}
+
+.hero {
+	width: 100%;
+    position: relative;
+    background: var(--hero-bg-banner) center bottom no-repeat;
+    background-size: cover;
+    padding: 140px 0 120px 0;
+}
+.hero h2 {
+	margin: 10px 0 20px 0;
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: hsl(var(--color-white));
+    filter: drop-shadow(3px 3px 0px #ffffff50);
+}
+
+
+.content-part .text-prime {
+	color: hsl(var(--color-white));
+}
+
+
+.btn-bg-color{
+	background: linear-gradient(45deg, hsl(var(--color-primary) / 100%) 0%, hsl(var(--color-secondary) / 100%) 100%);
+    color: hsl(var(--color-white));
+}
+
+.contact {
+	padding: 160px 0 0px;
+	margin-bottom: 200px;
+}
+
+.mobile-app {
+	padding: 160px 0 120px;
+}
+
+input.form-control,
+textarea.form-control {
+	border: 0;
+	border-radius: 0;
+	border-bottom: 2px solid hsl(var(--color-white));
+	background: transparent;
+	font-size: 14px;
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+	outline: 0 !important;
+	box-shadow: none;
+	border-color: hsl(var(--color-primary-dark));
+}
+
+.form-group:focus {
+	outline: 0;
+}
+
+.conatct-form {
+	border-radius: 25px;
+	padding: 80px 50px;
+	margin-bottom: -200px;
+	box-shadow: 79px 79px 122px 0 rgba(206, 212, 224, 0.2);
+}
+
+img.purple-dots {
+  position: absolute;
+  top: 4px;
+  z-index: 3;
+  left: 0;
+  max-width: 160px;
+}
+#header a:hover {
+	color: hsl(var(--color-primary));
+}
+
+.form {
+	border-radius: 20px;
+	max-width: 340px;
+}
+
+.form input:first-child:focus {
+	outline: 0;
+}
+
+.form input:first-child {
+	padding: 8px 12px;
+    line-height: 22px;
+    background-color: hsl(var(--color-white));
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.w-button {
+	padding: 15px 19px;
+    font-weight: 600;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+img.hero-circle {
+	position: absolute;
+	right: 0;
+	top: 0;
+	max-width: 300px;
+}
+
+.form input::placeholder {
+	color: hsl(var(--color-secondary-dark))!important;
+}
+
+
+@media only screen and (max-width: 991px) {
+	.hero .form {
+	  margin: auto;
+	}
+  }
+
+  
+@media only screen and (max-width: 991px) {
+	.hero-person-wrapper {
+		border-radius: 25px;
+		background: transparent!important	;
+	}
+  }
+
+
+
+  #hero .heroimg-bg-color {
+    color: hsl(var(--color-secondary-dark));
+  }
+
+  a.touch-btn {
+	border: 2px solid hsl(var(--color-white));
+    border-radius: 25px;
+    color: hsl(var(--color-white));
+	box-shadow: 0px 9px 75px -6px hsl(var(--color-white));
+	background-color: transparent;
+}
+
+a.touch-btn:hover i {
+	
+	transform: translate(-10px,0);
+}
+ 
+
+.tag a img, .touch-btn i {
+	transition: 0.5s;
+}
+
+.hero a:hover {
+    color: hsl(var(--color-white)) !important;
+    text-decoration: none;
+	transition: 0.5s;
+	background-color: hsl(var(--color-secondary));
+}
+ 
+.animateArrow {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 134px;
+    left: 50%;
+    margin: 0;
+    width: 25px;
+    height: 80px;
+    opacity: 1;
+    -webkit-animation: example 1.2s infinite;
+    animation: example 1.2s infinite;
+}
+    
+
+/* Standard syntax */
+@keyframes example {
+ from {
+bottom: 80px;
+opacity: 0
+}
+ to {
+bottom: 20px;
+opacity: 1
+}
+}

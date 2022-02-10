@@ -1,0 +1,21 @@
+main.inner_pages_custom {
+    padding: 60px 0;
+}
+
+.contact_page_9 .heading-contact-page {
+    color: hsl(var(--color-secondary-dark));
+}
+
+.contact-title h2::before {
+    margin: 0 15px 10px 0;
+}
+.contact-title h2::after {
+    margin: 0 0 10px 15px;
+}
+.contact-title h2::before, .contact-title h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: hsl(var(--color-secondary));
+    display: inline-block;
+}

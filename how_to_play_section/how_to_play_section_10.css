@@ -1,0 +1,91 @@
+
+
+.how-to-play_10 {
+  padding: 60px 0px;
+  border-bottom: 1px solid hsl(var(--color-white));
+  /* background-image: var(--how-to-play-bg-banner); */
+  background: linear-gradient(45deg, hsl(var(--color-primary) / 80%) 0%, hsl(var(--color-secondary) / 100%) 100%), var(--how-to-play-bg-banner);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.how-to-play_10 .how-ply-text-clor {
+  color: hsl(var(--color-white));
+}
+.how-to-play_10 h2 {
+  color: hsl(var(--color-white));
+    filter: drop-shadow(3px 3px 0px #ffffff50);
+}
+
+.how-to-play_10 .info {
+  max-width: none;
+  margin: 0 auto;
+  padding: 10px 0 0px;
+}
+
+.how-to-play_10 .info-horizontal .icon {
+  float: left;
+  margin-top: 23px;
+  margin-right: 10px;
+}
+
+.how-to-play_10 .info-horizontal {
+  text-align: left !important;
+}
+.how-to-play_10 .icon.icon-primary.icon-circle {
+  -webkit-box-shadow: 0px 9px 30px -6px hsl(var(--color-white));
+  box-shadow: 0px 9px 30px -6px hsl(var(--color-white));
+}
+.how-to-play_10 .info-horizontal .icon.icon-circle {
+  width: 65px;
+  height: 65px;
+  max-width: 65px;
+  margin-top: 6px;
+}
+
+.how-to-play_10 .info .icon.icon-circle {
+  max-width: 70px;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0px 9px 35px -6px hsl(var(--color-white));
+  font-size: 0.7142em;
+  background-color: hsl(var(--color-white));
+  position: relative; 
+  margin-top: 10px;
+  
+}
+.how-to-play_10 .info .icon.icon-circle:hover {
+  transform: translate3d(0, -0.5rem, 0);
+}
+
+.info .icon {
+  transition: transform .4s, box-shadow .4s, -webkit-transform .4s, -webkit-box-shadow .4s;
+}
+
+.icon.icon-primary {
+  color: hsl(var(--color-primary));
+}
+
+.how-to-play_10 .info-horizontal .icon.icon-circle i {
+  display: table;
+  margin: 0 auto;
+  line-height: 3.5;
+  font-size: 1.9em;
+}
+
+.how-to-play_10 .info .info-title {
+  margin: 25px 0 15px;
+  padding: 0 15px;
+  color: #2c2c2c;
+}
+
+.how-to-play_10 .info p {
+  padding: 0 15px;
+}
+
+.how-to-play_10 .tablet-container {
+  margin-top: 50px;
+}
